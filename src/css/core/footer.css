@@ -1,0 +1,36 @@
+.contact{
+    margin-bottom:0;
+    text-align: center;
+    position: relative;
+ }
+.contact h2{
+    margin-bottom:10px;
+}
+
+ul.social-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 0 70px;
+}
+ul.social-li a {
+    font-size: 40px;
+    margin: 0 10px;
+    color: var(--second-color);
+    transition:0.2s all ease;
+    opacity:1;
+}
+ul.social-li a:hover{
+    color: var(--tree-color);
+}
+
+.media {
+    width: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.media img{
+  width:100%;
+  border-radius: 100%;
+  border:5px solid #dadada;
+}

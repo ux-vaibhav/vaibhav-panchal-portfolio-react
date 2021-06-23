@@ -1,0 +1,32 @@
+.respo{
+    padding-bottom:60px;
+    width:100%;
+    padding-left:50px;  
+}
+.respo ul li, .activities ul li {
+    font-size: 1.5rem;
+    color: var(--second-color);
+    font-weight: 300;
+    line-height: 3rem;
+    position: relative;
+    padding-left: 40px;
+}
+.activities{
+    padding-bottom:60px;
+    width:100%;
+    padding-left:50px;  
+    border-radius:100px 0 0 100px;
+}
+
+.respo ul li:before ,.activities ul li:before {
+    height: 25px;
+    width: 25px;
+    content: "";
+    background: #a6d5e6;
+    z-index: 1;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #e2f3ff;
+    top: 0.75rem;
+    left:0;
+}

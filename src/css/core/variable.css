@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root {
+	--first-color: #fff;
+	--second-color: #696969;
+	--tree-color: #5cdac5;
+	--four-color: #57ac6c;
+	--five-color: #e6fedd;
+	--six-color: #666;
+	--seven-color: #98c4b1;
+	--eight-color: #ecfaffc2;
+	--nine-color: #79FFE1;
+	--font-family:'Oswald';
+}
+
+[data-theme-dark]{
+	--first-color: #333;
+	--second-color: #e9e9e9;
+	--tree-color: #5cdac5;
+	--four-color: #272727;
+	--five-color: #53645a;
+	--six-color: rgb(194, 200, 255);
+	--seven-color: #ebebeb;
+	--eight-color: #454750;
+	--nine-color: #79FFE1;
+}

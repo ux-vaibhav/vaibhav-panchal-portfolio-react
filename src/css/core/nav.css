@@ -1,0 +1,31 @@
+nav {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    background:var(--tree-color);
+    z-index:999;
+    display: flex;
+    align-items:center;
+    transform:translate(-100%);
+    transition:0.2s all ease;
+    top:0;
+}
+nav.active{
+    transform:translate(0%);
+    transition:0.2s all ease;
+}
+nav li a{
+    padding:10px 30px;
+    font-size: 28px;
+    color: var(--first-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition:0.2s all ease;
+    width: 280px;
+    cursor: pointer;
+    display:block;
+}
+nav li a:hover{
+    background-color: rgba(0,0,0,0.1);
+}

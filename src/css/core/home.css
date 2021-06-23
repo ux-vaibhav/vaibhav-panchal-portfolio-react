@@ -1,0 +1,36 @@
+.home{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.heading {
+    text-align: center;
+}
+.home h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-transform: uppercase;
+    color:var(--tree-color);
+}
+.home h2 {
+    font-size: 6rem;
+    color: var(--seven-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 6rem;
+    display: block;
+}
+.home p {
+    font-size: 2rem;
+    margin: 25px auto;
+    max-width: 800px;
+    color: var(--second-color);
+    line-height:3rem;
+}
+.home p span{
+    color:var(--tree-color);
+}

@@ -1,0 +1,99 @@
+.technical-skills{
+    padding-bottom:60px;
+    width:100%;
+    padding:30px;  
+}
+.technical-skills ul{
+    text-align: center;
+}
+.technical-skills li{
+    width:150px;
+    display:inline-block;
+    padding:15px;
+    text-align:center;
+    background: var(--five-color);
+    margin: 15px;
+    border-radius:30px;
+    position: relative;
+}
+.technical-skills li span{
+    font-size:22px;
+    font-weight:500;
+    color:#666;
+}
+.technical-skills .chart{
+    height:7rem;
+    width:7rem;
+    background:conic-gradient(var(--tree-color) 80%,#fff 20%);
+    border-radius:100%;
+    margin:10px auto;
+    position: relative;
+    transition:0.2s all ease;
+}
+.technical-skills h4 {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    top: 4.25rem;
+    font-size: 1.5rem;
+    color: var(--tree-color);
+}
+.technical-skills .chart:hover{
+    transform: rotate(90deg);
+}
+.technical-skills .chart.html{
+    background:conic-gradient(var(--tree-color) 85%,#fff 15%);  
+}
+.technical-skills .chart.css{
+    background:conic-gradient(var(--tree-color) 90%,#fff 10%);  
+}
+.technical-skills .chart.javascript{
+    background:conic-gradient(var(--tree-color) 70%,#fff 30%);  
+}
+.technical-skills .chart.react{
+    background:conic-gradient(var(--tree-color) 65%,#fff 35%);  
+}
+.technical-skills .chart.photoshop{
+    background:conic-gradient(var(--tree-color) 80%,#fff 80%);  
+}
+
+.technical-skills .chart.scss{
+    background:conic-gradient(var(--tree-color) 75%,#fff 25%);  
+}
+.technical-skills .chart.less{
+    background:conic-gradient(var(--tree-color) 75%,#fff 25%);  
+}
+.technical-skills .chart.jquery{
+    background:conic-gradient(var(--tree-color) 80%,#fff 20%);  
+}
+.technical-skills .chart.bootstrap{
+    background:conic-gradient(var(--tree-color) 75%,#fff 30%);  
+}
+.technical-skills .chart.node{
+    background:conic-gradient(var(--tree-color) 65%,#fff 35%);  
+}
+.technical-skills .chart.express{
+    background:conic-gradient(var(--tree-color) 65%,#fff 35%);  
+}
+.technical-skills .chart.git{
+    background:conic-gradient(var(--tree-color) 50%,#fff 50%);  
+}
+
+.technical-skills .chart::before {
+    background-color: var(--five-color);
+    height: 6rem;
+    width: 6rem;
+    content: "";
+    position: absolute;
+    z-index: 9;
+    border-radius: 100%;
+    left: .5rem;
+    top: .5rem;
+}
+.technical-skills label{
+    font-size:1.5rem;
+    margin:0;
+    color: var(--second-color);
+}
